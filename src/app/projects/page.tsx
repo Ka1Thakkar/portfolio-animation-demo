@@ -23,7 +23,7 @@ import {motion as m} from'framer-motion'
 
 export default function Portfolio () {
     return (
-        <section id="projects" className="2xl:flex 2xl:pt-10 2xl:pb-32 2xl:max-h-screen overflow-hidden 2xl:justify-center 2xl:gap-10 md:py-32 pt-10 px-5 bg-gradient-to-b from-black to-slate-900">
+        <section id="projects" className="2xl:flex 2xl:pt-10 2xl:pb-32 2xl:max-h-screen overflow-hidden 2xl:justify-center 2xl:gap-10 md:py-32 pt-10 px-5 bg-gradient-to-b from-black to-stone-900">
             <div className='2xl:my-auto text-white overflow-auto 2xl:overflow-y-scroll 2xl:px-10 rounded-xl scrollbar-thin 2xl:w-auto 2xl:py-10 xl:px-10'>
               <m.h1
                 initial={{opacity:0, y:-40}}

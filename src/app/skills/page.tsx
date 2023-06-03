@@ -28,7 +28,7 @@ import {
 
 export default function Skills() {
     return (
-        <section id="skills" className="2xl:flex 2xl:gap-10 2xl:pt-10 2xl:pb-32 2xl:max-h-screen pt-10 bg-gradient-to-b from-black to-slate-900 px-5">
+        <section id="skills" className="2xl:flex 2xl:gap-10 2xl:pt-10 2xl:pb-32 2xl:max-h-screen pt-10 bg-gradient-to-b from-black to-stone-900 px-5">
             <div className='2xl:my-auto text-white overflow-auto 2xl:overflow-y-scroll 2xl:py-0 2xl:px-10 scrollbar-thin'>
               <m.h1
               initial={{opacity:0, y:-40}}
