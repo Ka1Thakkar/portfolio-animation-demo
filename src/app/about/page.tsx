@@ -2,23 +2,28 @@
 'use client'
 import react from 'react';
 import Image from 'next/image'
-import {motion} from 'framer-motion'
+import {motion, AnimatePresence} from 'framer-motion'
 
 export default function About() {
     return (
-        <section id="about" className="2xl:flex 2xl:pt-10 2xl:pb-32 2xl:max-h-screen overflow-hidden 2xl:justify-center 2xl:gap-10 bg-gradient-to-b from-black to-sky-900 justify-center px-5 pt-10">
+      <AnimatePresence>
+        <motion.section
+        animate = {{opacity:1}}
+        exit={{opacity:0}}
+        transition={{duration:1}}
+        id="about" className="2xl:flex 2xl:pt-10 2xl:pb-32 2xl:max-h-screen overflow-hidden 2xl:justify-center 2xl:gap-10 bg-gradient-to-b from-black to-sky-900 justify-center px-5 pt-10">
             <motion.div
               className=' text-black overflow-auto 2xl:overflow-y-scroll 2xl:px-10 rounded-xl scrollbar-thin 2xl:py-10 2xl:w-auto'>
             <motion.h3
             initial={{opacity:0, x:40}}
             animate={{opacity:1, x:0}}
             transition={{duration:1}}
-            className='text-6xl 2xl:text-4xl text-white underline decoration-red-600 decoration-4 underline-offset-8 font-mono font-bold sm:text-right pb-5 2xl:pb-0'>About Me</motion.h3>
+            className='xl:px-10 text-6xl 2xl:text-4xl text-white underline decoration-red-600 decoration-4 underline-offset-8 font-serif font-bold 2xl:text-right pb-5 2xl:pb-0'>About Me</motion.h3>
             <motion.p
             initial={{opacity:0, x:40}}
             animate={{opacity:1, x:0}}
             transition={{delay:0.5,duration:1}}
-            className='text-2xl 2xl:text-4xl text-white font-mono font-bold sm:text-right 2xl:pt-5 2xl:pb-0 py-5'>Hi. I'm Kavan, nice to meet you. Please take a look around.</motion.p>
+            className='xl:px-10 text-2xl 2xl:text-4xl text-white font-mono font-bold 2xl:text-right 2xl:pt-5 2xl:pb-0 py-5'>Hi. I'm Kavan, nice to meet you. Please take a look around.</motion.p>
             </motion.div>
             <div className=' 2xl:max-h-screen 2xl:overflow-y-scroll scrollbar-thin text-white overflow-visible py-5 xl:px-10 rounded-xl 2xl:w-auto 2xl:py-auto'>
             <motion.p
@@ -89,6 +94,7 @@ export default function About() {
               </motion.div>
             </div>
           </div>
-        </section>
+        </motion.section>
+        </AnimatePresence>
     )
 }
