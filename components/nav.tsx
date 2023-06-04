@@ -19,31 +19,37 @@ export default function Nav() {
               <motion.li
                 initial={{opacity:0, x:40}}
                 animate={{opacity:1, x:0}}
-                transition={{delay:0.8,duration:1}}>
+                transition={{}}
+                whileTap={{opacity:0, y:-20}}
+                >
                 <button className="px-2 text-sm md:px-5 md:text-xl border-b-4 border-transparent hover:border-red-600"><Link href="/">Home</Link></button>
               </motion.li>
               <motion.li             
                 initial={{opacity:0, x:40}}
                 animate={{opacity:1, x:0}}
-                transition={{delay:0.6,duration:1}}>
+                transition={{}}
+                whileTap={{opacity:0, y:-20}}>
                 <button className="px-2 text-sm md:px-5 md:text-xl border-b-4 border-transparent hover:border-red-600"><Link href="/about">About</Link></button>
               </motion.li>
               <motion.li             
                 initial={{opacity:0, x:40}}
                 animate={{opacity:1, x:0}}
-                transition={{delay:0.4,duration:1}}>
+                transition={{}}
+                whileTap={{opacity:0, y:-20}}>
                 <button className="px-2 text-sm md:px-5 md:text-xl border-b-4 border-transparent hover:border-red-600"><Link href="/skills">Skills</Link></button>
               </motion.li>
               <motion.li             
                 initial={{opacity:0, x:40}}
                 animate={{opacity:1, x:0}}
-                transition={{delay:0.2,duration:1}}>
+                transition={{}}
+                whileTap={{opacity:0,y:-20}}>
                 <button className="px-2 text-sm md:px-5 md:text-xl border-b-4 border-transparent hover:border-red-600"><Link href="/projects">Projects</Link></button>
               </motion.li>
               <motion.li             
                 initial={{opacity:0, x:40}}
                 animate={{opacity:1, x:0}}
-                transition={{duration:1}}>
+                transition={{}}
+                whileTap={{opacity:0, y:-20}}>
                 <button className="px-2 text-sm md:px-5 md:text-xl border-b-4 border-transparent hover:border-red-600"><Link href="/contact">Contact</Link></button>
               </motion.li>
           </ul>

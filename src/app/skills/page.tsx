@@ -44,9 +44,10 @@ export default function Skills() {
             <m.div
             className=' 2xl:max-h-screen 2xl:overflow-y-scroll scrollbar-thin text-white overflow-visible xl:px-10 rounded-xl 2xl:min-w-max 2xl:py-10'>
               <m.div 
-              initial={{opacity:0}}
-              animate={{opacity:1}}
-              transition={{delay:1,duration:1}}
+              initial={{opacity:0, x:-40}}
+              whileInView={{opacity:1, x:0}}
+              transition={{duration:2}}
+              viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
                   <SiHtml5 className="text-5xl 2xl:text-6xl text-center text-white mx-auto"/>
@@ -54,9 +55,10 @@ export default function Skills() {
                 </div>
               </m.div>
               <m.div 
-              initial={{opacity:0}}
-              animate={{opacity:1}}
-              transition={{delay:1.5,duration:1}}
+              initial={{opacity:0, x:-40}}
+              whileInView={{opacity:1, x:0}}
+              transition={{duration:2}}
+              viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
                   <SiCss3 className="text-5xl 2xl:text-6xl text-center text-white mx-auto"/>
@@ -64,9 +66,10 @@ export default function Skills() {
                 </div>
               </m.div>
               <m.div
-              initial={{opacity:0}}
-              animate={{opacity:1}}
-              transition={{delay:2,duration:1}}
+              initial={{opacity:0, x:-40}}
+              whileInView={{opacity:1, x:0}}
+              transition={{duration:2}}
+              viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
                   <SiJavascript className="text-5xl 2xl:text-6xl text-center text-white mx-auto"/>
@@ -74,9 +77,10 @@ export default function Skills() {
                 </div>
               </m.div>
               <m.div
-              initial={{opacity:0}}
-              animate={{opacity:1}}
-              transition={{delay:2.5,duration:1}}
+              initial={{opacity:0, x:-40}}
+              whileInView={{opacity:1, x:0}}
+              transition={{duration:2}}
+              viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
                   <SiReact className="text-5xl 2xl:text-6xl text-center text-white mx-auto"/>
@@ -84,9 +88,10 @@ export default function Skills() {
                 </div>
               </m.div>
               <m.div
-              initial={{opacity:0}}
-              animate={{opacity:1}}
-              transition={{delay:2.5,duration:1}}
+              initial={{opacity:0, x:-40}}
+              whileInView={{opacity:1, x:0}}
+              transition={{duration:2}}
+              viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
                   <SiVuedotjs className="text-5xl 2xl:text-6xl text-center text-white mx-auto"/>
@@ -94,9 +99,10 @@ export default function Skills() {
                 </div>
               </m.div>
               <m.div
-              initial={{opacity:0}}
-              animate={{opacity:1}}
-              transition={{delay:2.5,duration:1}}
+              initial={{opacity:0, x:-40}}
+              whileInView={{opacity:1, x:0}}
+              transition={{duration:2}}
+              viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
                   <SiNextdotjs className="text-5xl 2xl:text-6xl text-center text-white mx-auto"/>
@@ -104,9 +110,10 @@ export default function Skills() {
                 </div>
               </m.div>
               <m.div
-              initial={{opacity:0}}
-              animate={{opacity:1}}
-              transition={{delay:2.5,duration:1}}
+              initial={{opacity:0, x:-40}}
+              whileInView={{opacity:1, x:0}}
+              transition={{duration:2}}
+              viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
                   <SiTailwindcss className="text-5xl 2xl:text-6xl text-center text-white mx-auto"/>
@@ -114,9 +121,10 @@ export default function Skills() {
                 </div>
               </m.div>
               <m.div
-              initial={{opacity:0}}
-              animate={{opacity:1}}
-              transition={{delay:2.5,duration:1}}
+              initial={{opacity:0, x:-40}}
+              whileInView={{opacity:1, x:0}}
+              transition={{duration:2}}
+              viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
                   <SiC className="text-5xl 2xl:text-6xl text-center text-white mx-auto"/>
@@ -124,9 +132,10 @@ export default function Skills() {
                 </div>
               </m.div>
               <m.div
-              initial={{opacity:0}}
-              animate={{opacity:1}}
-              transition={{delay:2.5,duration:1}}
+              initial={{opacity:0, x:-40}}
+              whileInView={{opacity:1, x:0}}
+              transition={{duration:2}}
+              viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
                   <SiCplusplus className="text-5xl 2xl:text-6xl text-center text-white mx-auto"/>
@@ -134,9 +143,10 @@ export default function Skills() {
                 </div>
               </m.div>
               <m.div
-              initial={{opacity:0}}
-              animate={{opacity:1}}
-              transition={{delay:2.5,duration:1}}
+              initial={{opacity:0, x:-40}}
+              whileInView={{opacity:1, x:0}}
+              transition={{duration:2}}
+              viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
                   <SiPython className="text-5xl 2xl:text-6xl text-center text-white mx-auto"/>
@@ -144,9 +154,10 @@ export default function Skills() {
                 </div>
               </m.div>
               <m.div
-              initial={{opacity:0}}
-              animate={{opacity:1}}
-              transition={{delay:2.5,duration:1}}
+              initial={{opacity:0, x:-40}}
+              whileInView={{opacity:1, x:0}}
+              transition={{duration:2}}
+              viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
                   <SiMysql className="text-5xl 2xl:text-6xl text-center text-white mx-auto"/>
@@ -154,9 +165,10 @@ export default function Skills() {
                 </div>
               </m.div>
               <m.div
-              initial={{opacity:0}}
-              animate={{opacity:1}}
-              transition={{delay:2.5,duration:1}}
+              initial={{opacity:0, x:-40}}
+              whileInView={{opacity:1, x:0}}
+              transition={{duration:2}}
+              viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
                   <SiFigma className="text-5xl 2xl:text-6xl text-center text-white mx-auto"/>
@@ -164,9 +176,10 @@ export default function Skills() {
                 </div>
               </m.div>
               <m.div
-              initial={{opacity:0}}
-              animate={{opacity:1}}
-              transition={{delay:2.5,duration:1}}
+              initial={{opacity:0, x:-40}}
+              whileInView={{opacity:1, x:0}}
+              transition={{duration:2}}
+              viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
                   <SiAdobephotoshop className="text-5xl 2xl:text-6xl text-center text-white mx-auto"/>
@@ -174,9 +187,10 @@ export default function Skills() {
                 </div>
               </m.div>
               <m.div
-              initial={{opacity:0}}
-              animate={{opacity:1}}
-              transition={{delay:2.5,duration:1}}
+              initial={{opacity:0, x:-40}}
+              whileInView={{opacity:1, x:0}}
+              transition={{duration:2}}
+              viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
                   <SiAdobeillustrator className="text-5xl 2xl:text-6xl text-center text-white mx-auto"/>
@@ -184,9 +198,10 @@ export default function Skills() {
                 </div>
               </m.div>
               <m.div
-              initial={{opacity:0}}
-              animate={{opacity:1}}
-              transition={{delay:2.5,duration:1}}
+              initial={{opacity:0, x:-40}}
+              whileInView={{opacity:1, x:0}}
+              transition={{duration:2}}
+              viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
                   <SiAdobepremierepro className="text-5xl 2xl:text-6xl text-center text-white mx-auto"/>
@@ -194,9 +209,10 @@ export default function Skills() {
                 </div>
               </m.div>
               <m.div
-              initial={{opacity:0}}
-              animate={{opacity:1}}
-              transition={{delay:2.5,duration:1}}
+              initial={{opacity:0, x:-40}}
+              whileInView={{opacity:1, x:0}}
+              transition={{duration:2}}
+              viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
                   <SiKrita className="text-5xl 2xl:text-6xl text-center text-white mx-auto"/>
@@ -204,9 +220,10 @@ export default function Skills() {
                 </div>
               </m.div>
               <m.div
-              initial={{opacity:0}}
-              animate={{opacity:1}}
-              transition={{delay:2.5,duration:1}}
+              initial={{opacity:0, x:-40}}
+              whileInView={{opacity:1, x:0}}
+              transition={{duration:2}}
+              viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
                   <SiGithub className="text-5xl 2xl:text-6xl text-center text-white mx-auto"/>
@@ -214,9 +231,10 @@ export default function Skills() {
                 </div>
               </m.div>
               <m.div
-              initial={{opacity:0}}
-              animate={{opacity:1}}
-              transition={{delay:2.5,duration:1}}
+              initial={{opacity:0, x:-40}}
+              whileInView={{opacity:1, x:0}}
+              transition={{duration:2}}
+              viewport={{once:true}}
               className='py-5'>
                 <div className=" bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
                   <SiCesium className="text-5xl 2xl:text-6xl text-center mx-auto"/>
@@ -224,9 +242,10 @@ export default function Skills() {
                 </div>
               </m.div>
               <m.div
-              initial={{opacity:0}}
-              animate={{opacity:1}}
-              transition={{delay:2.5,duration:1}}
+              initial={{opacity:0, x:-40}}
+              whileInView={{opacity:1, x:0}}
+              transition={{duration:2}}
+              viewport={{once:true}}
               className='py-5'>
                 <div className=" bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
                   <SiPandas className="text-5xl 2xl:text-6xl text-center mx-auto"/>
@@ -234,9 +253,10 @@ export default function Skills() {
                 </div>
               </m.div>
               <m.div
-              initial={{opacity:0}}
-              animate={{opacity:1}}
-              transition={{delay:2.5,duration:1}}
+              initial={{opacity:0, x:-40}}
+              whileInView={{opacity:1, x:0}}
+              transition={{duration:2}}
+              viewport={{once:true}}
               className='py-5'>
                 <div className=" bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
                   <SiScikitlearn className="text-5xl 2xl:text-6xl text-center mx-auto"/>
@@ -244,9 +264,10 @@ export default function Skills() {
                 </div>
               </m.div>
               <m.div
-              initial={{opacity:0}}
-              animate={{opacity:1}}
-              transition={{delay:2.5,duration:1}}
+              initial={{opacity:0, x:-40}}
+              whileInView={{opacity:1, x:0}}
+              transition={{duration:2}}
+              viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10 ">
                   <SiNumpy className="text-5xl 2xl:text-6xl text-center mx-auto"/>

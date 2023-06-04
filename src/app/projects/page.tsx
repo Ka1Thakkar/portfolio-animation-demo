@@ -44,9 +44,10 @@ export default function Portfolio () {
             <m.div
             className=' 2xl:max-h-screen 2xl:overflow-y-scroll scrollbar-thin text-white overflow-visible py-5 xl:px-10 rounded-xl 2xl:w-auto 2xl:py-auto'>
                 <m.div
-                initial={{opacity:0}}
-                animate={{opacity:1}}
-                transition={{delay:1.5,duration:1}}
+                initial={{opacity:0, x:-40}}
+                whileInView={{opacity:1, x:0}}
+                transition={{duration:1.5}}
+                viewport={{once:true}}
                 className='py-5'>
                     <div className='p-10 bg-black bg-opacity-30 rounded-xl'>
                         <a href='https://github.com/Ka1Thakkar/Uber-Eats_Website' target='_blank' className=''>
@@ -64,9 +65,10 @@ export default function Portfolio () {
                     </div>
                 </m.div>
                 <m.div
-                initial={{opacity:0}}
-                animate={{opacity:1}}
-                transition={{delay:2,duration:1}}
+                initial={{opacity:0, x:-40}}
+                whileInView={{opacity:1, x:0}}
+                transition={{duration:1.5}}
+                viewport={{once:true}}
                 className='py-5'>
                     <div className='p-10 bg-black bg-opacity-30 rounded-xl'>
                         <a href='https://github.com/Ka1Thakkar/Passenger-counter' target='_blank' className=''>
@@ -84,9 +86,10 @@ export default function Portfolio () {
                     </div>
                 </m.div>
                 <m.div
-                initial={{opacity:0}}
-                animate={{opacity:1}}
-                transition={{delay:2.5,duration:1}}
+                initial={{opacity:0, x:-40}}
+                whileInView={{opacity:1, x:0}}
+                transition={{duration:1.5}}
+                viewport={{once:true}}
                 className='py-5'>
                     <div className='p-10 bg-black bg-opacity-30 rounded-xl'>
                         <a href='https://github.com/Ka1Thakkar/Blackjack' target='_blank' className=''>
@@ -104,9 +107,10 @@ export default function Portfolio () {
                     </div>
                 </m.div>
                 <m.div
-                initial={{opacity:0}}
-                animate={{opacity:1}}
-                transition={{delay:3,duration:1}}
+                initial={{opacity:0, x:-40}}
+                whileInView={{opacity:1, x:0}}
+                transition={{duration:1.5}}
+                viewport={{once:true}}
                 className='py-5'>
                     <div className='p-10 bg-black bg-opacity-30 rounded-xl'>
                         <a href='https://github.com/Ka1Thakkar/BITS-Club-sample' target='_blank' className=''>
@@ -124,9 +128,10 @@ export default function Portfolio () {
                     </div>
                 </m.div>
                 <m.div
-                initial={{opacity:0}}
-                animate={{opacity:1}}
-                transition={{delay:3.5,duration:1}}
+                initial={{opacity:0, x:-40}}
+                whileInView={{opacity:1, x:0}}
+                transition={{duration:1.5}}
+                viewport={{once:true}}
                 className='py-5'>
                     <div className='p-10 bg-black bg-opacity-30 rounded-xl'>
                         <a href='https://github.com/Ka1Thakkar/Airbnb-clone' target='_blank' className=''>
@@ -144,9 +149,10 @@ export default function Portfolio () {
                     </div>
                 </m.div>
                 <m.div
-                initial={{opacity:0}}
-                animate={{opacity:1}}
-                transition={{delay:4,duration:1}}
+                initial={{opacity:0, x:-40}}
+                whileInView={{opacity:1, x:0}}
+                transition={{duration:1.5}}
+                viewport={{once:true}}
                 className='py-5'>
                     <div className='p-10 bg-black bg-opacity-30 rounded-xl'>
                         <a href='https://github.com/Ka1Thakkar/Simon-Game-Workshop' target='_blank' className=''>
@@ -164,9 +170,10 @@ export default function Portfolio () {
                     </div>
                 </m.div>
                 <m.div
-                initial={{opacity:0}}
-                animate={{opacity:1}}
-                transition={{delay:4.5,duration:1}}
+                initial={{opacity:0, x:-40}}
+                whileInView={{opacity:1, x:0}}
+                transition={{duration:1.5}}
+                viewport={{once:true}}
                 className='py-5'>
                     <div className='p-10 bg-black bg-opacity-30 rounded-xl'>
                         <a href='https://github.com/Ka1Thakkar/BITS-Club-sample' target='_blank' className=''>
@@ -184,9 +191,10 @@ export default function Portfolio () {
                     </div>
                 </m.div>
                 <m.div
-                initial={{opacity:0}}
-                animate={{opacity:1}}
-                transition={{delay:5,duration:1}}
+                initial={{opacity:0, x:-40}}
+                whileInView={{opacity:1, x:0}}
+                transition={{duration:1.5}}
+                viewport={{once:true}}
                 className='py-5'>
                     <div className='p-10 bg-black bg-opacity-30 rounded-xl'>
                         <a href='https://github.com/Ka1Thakkar/portfolio-2' target='_blank' className=''>
