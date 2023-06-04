@@ -6,25 +6,25 @@ import {motion} from 'framer-motion'
 
 export default function About() {
     return (
-        <section id="about" className="2xl:flex 2xl:pt-10 2xl:pb-32 2xl:max-h-screen overflow-hidden 2xl:justify-center 2xl:gap-10 bg-gradient-to-b from-black to-stone-900 justify-center px-5 pt-10">
+        <section id="about" className="2xl:flex 2xl:pt-10 2xl:pb-32 2xl:max-h-screen overflow-hidden 2xl:justify-center 2xl:gap-10 bg-gradient-to-b from-black to-sky-900 justify-center px-5 pt-10">
             <motion.div
               className=' text-black overflow-auto 2xl:overflow-y-scroll 2xl:px-10 rounded-xl scrollbar-thin 2xl:py-10 2xl:w-auto'>
             <motion.h3
-            initial={{opacity:0, y:-40}}
-            animate={{opacity:1, y:0}}
+            initial={{opacity:0, x:40}}
+            animate={{opacity:1, x:0}}
             transition={{duration:1}}
             className='text-6xl 2xl:text-4xl text-white underline decoration-red-600 decoration-4 underline-offset-8 font-mono font-bold sm:text-right pb-5 2xl:pb-0'>About Me</motion.h3>
             <motion.p
-            initial={{opacity:0, y:-40}}
-            animate={{opacity:1, y:0}}
+            initial={{opacity:0, x:40}}
+            animate={{opacity:1, x:0}}
             transition={{delay:0.5,duration:1}}
             className='text-2xl 2xl:text-4xl text-white font-mono font-bold sm:text-right 2xl:pt-5 2xl:pb-0 py-5'>Hi. I'm Kavan, nice to meet you. Please take a look around.</motion.p>
             </motion.div>
             <div className=' 2xl:max-h-screen 2xl:overflow-y-scroll scrollbar-thin text-white overflow-visible py-5 xl:px-10 rounded-xl 2xl:w-auto 2xl:py-auto'>
             <motion.p
-            initial={{opacity:0, y:-40}}
-            animate={{opacity:1, y:0}}
-            transition={{delay:0.5,duration:1}}
+            initial={{opacity:0, x:-40}}
+            animate={{opacity:1, x:0}}
+            transition={{delay:1,duration:1}}
             className='text-md sm:text-xl py-5 font-sans text-left'>
               I am pursuing a dual degree in <span>MSc Physics</span> and <span className='font-bold'>B.E. Electronics and
               Instrumentation</span>. I have fundamental knowledge of web development and am currently mastering
@@ -32,9 +32,9 @@ export default function About() {
               </motion.p>
             <div className="gap-10 font-mono">
               <motion.div
-              initial={{opacity:0, y:-40}}
-              animate={{opacity:1, y:0}}
-              transition={{delay:1,duration:1}}
+              initial={{opacity:0, x:-40}}
+              animate={{opacity:1, x:0}}
+              transition={{delay:1.5,duration:1}}
               className=" p-10 rounded-xl my-10 basis-1/2 bg-black bg-opacity-30">
                 <h1 className="text-3xl text-center md:text-left text-orange-500 font-extrabold">Experience:</h1>
                 <ul className=" list-disc text-orange-500">
@@ -58,9 +58,9 @@ export default function About() {
                 </ul>
               </motion.div>
               <motion.div
-              initial={{opacity:0, y:-40}}
-              animate={{opacity:1, y:0}}
-              transition={{delay:1.5,duration:1}}
+              initial={{opacity:0, x:-40}}
+              animate={{opacity:1, x:0}}
+              transition={{delay:2,duration:1}}
               className=" p-10 rounded-xl my-10 basis-1/2 bg-black bg-opacity-30">
                 <h1 className="text-3xl text-center md:text-left text-orange-500 font-extrabold">Education:</h1>
                 <ul className="list-disc text-orange-500">

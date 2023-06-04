@@ -13,26 +13,26 @@ import {motion as m} from 'framer-motion'
 
 export default function Contact () {
     return (
-        <section id="contact" className=" min-h-screen font-sans bg-gradient-to-b from-black to-stone-900 pt-10">
+        <section id="contact" className=" min-h-screen font-sans bg-gradient-to-b from-black to-sky-900 pt-10">
           <div>
             <m.h1
                         initial={{opacity:0, y:-40}}
                         animate={{opacity:1, y:0}}
                         transition={{duration:1}}
-            className="text-5xl text-left md:text-8xl text-red-600 font-extrabold px-5 lg:px-40 pt-10 font-serif">Want me to make your dream website come true?</m.h1>
+            className="text-5xl text-left md:text-8xl text-red-600 font-extrabold px-5 lg:px-40 2xl:pt-10 font-serif">Want me to make your dream website come true?</m.h1>
             <m.h2
                         initial={{opacity:0, y:-40}}
                         animate={{opacity:1, y:0}}
                         transition={{delay:0.5,duration:1}}
             className="text-white text-4xl px-5 lg:px-40 pt-5 text-left font-mono">Drop me a message on any of my socials!!</m.h2>
           </div>
-          <div className="px-5 md:px-40 text-center font-serif md:flex md:items-center md:justify-between md:text-left pt-20">
+          <div className="px-5 md:px-40 text-center font-serif md:flex md:items-center md:justify-between md:text-left pt-20 pb-12 2xl:pb-0">
           {/* <Image src= {Kavan} className="rounded-full h-56 w-56 md:h-64 md:w-64 mx-auto md:mx-0 shadow-lg shadow-black hover:shadow-2xl hover:shadow-black" /> */}
           <m.div
           initial={{opacity:0, y:40}}
           animate={{opacity:1, y:0}}
           transition={{delay:0.5,duration:1}}
-          className="p-10 font-sans bg-gray-500 bg-opacity-20 rounded-xl px-5 shadow-md shadow-black mx-auto mt-10">
+          className="p-10 font-sans bg-sky-900 bg-opacity-20 rounded-xl px-5 mx-auto mt-10 border-sky-900 border-4">
             <AiOutlineContacts className='text-5xl mx-auto text-white' />
             <h1 className="pb-2 pt-10 text-white text-3xl font-bold text-center">Kavan Thakkar</h1>
             <h2 className="text-white text-lg text-center"><span className="font-bold">Phone Number:</span> 9925141357</h2>
