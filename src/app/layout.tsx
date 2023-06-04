@@ -1,8 +1,10 @@
-'use client'
+
 import './globals.css'
 import Nav from '../../components/nav'
 import Link from 'next/link'
-import {motion, AnimatePresence} from 'framer-motion'
+import {motion} from 'framer-motion'
+
+
 
 export const metadata = {
   title: 'Ka1 Portfolio',
@@ -18,11 +20,7 @@ export default function RootLayout({
     <html lang="en" className='2xl:overflow-hidden'>
       <body>
         <Nav />
-        <AnimatePresence>
-          <motion.div>
-            {children}
-          </motion.div>  
-        </AnimatePresence>
+        {children}
       </body>
     </html>
   )
