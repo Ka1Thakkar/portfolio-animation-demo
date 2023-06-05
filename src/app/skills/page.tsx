@@ -28,7 +28,7 @@ import {
 
 export default function Skills() {
     return (
-        <section id="skills" className="2xl:flex 2xl:gap-10 2xl:pt-10 2xl:pb-32 2xl:max-h-screen pt-10 bg-gradient-to-b from-black to-sky-900 px-5">
+        <section id="skills" className="2xl:flex 2xl:gap-10 2xl:pt-10 2xl:pb-32 2xl:max-h-screen pt-10 bg-gradient-to-b from-black to-stone-900 px-5">
             <div className='2xl:my-auto text-white overflow-auto 2xl:overflow-y-scroll 2xl:py-0 2xl:px-10 scrollbar-thin'>
               <m.h1
               initial={{opacity:0, x:40}}
@@ -46,7 +46,7 @@ export default function Skills() {
               <m.div 
               initial={{opacity:0, x:-40}}
               whileInView={{opacity:1, x:0}}
-              transition={{duration:2}}
+              transition={{duration:1.5, delay:0.3}}
               viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
@@ -57,7 +57,7 @@ export default function Skills() {
               <m.div 
               initial={{opacity:0, x:-40}}
               whileInView={{opacity:1, x:0}}
-              transition={{duration:2}}
+              transition={{duration:1.5, delay:0.3}}
               viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
@@ -68,7 +68,7 @@ export default function Skills() {
               <m.div
               initial={{opacity:0, x:-40}}
               whileInView={{opacity:1, x:0}}
-              transition={{duration:2}}
+              transition={{duration:1.5, delay:0.3}}
               viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
@@ -79,7 +79,7 @@ export default function Skills() {
               <m.div
               initial={{opacity:0, x:-40}}
               whileInView={{opacity:1, x:0}}
-              transition={{duration:2}}
+              transition={{duration:1.5, delay:0.3}}
               viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
@@ -90,7 +90,7 @@ export default function Skills() {
               <m.div
               initial={{opacity:0, x:-40}}
               whileInView={{opacity:1, x:0}}
-              transition={{duration:2}}
+              transition={{duration:1.5, delay:0.3}}
               viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
@@ -101,7 +101,7 @@ export default function Skills() {
               <m.div
               initial={{opacity:0, x:-40}}
               whileInView={{opacity:1, x:0}}
-              transition={{duration:2}}
+              transition={{duration:1.5, delay:0.3}}
               viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
@@ -112,7 +112,7 @@ export default function Skills() {
               <m.div
               initial={{opacity:0, x:-40}}
               whileInView={{opacity:1, x:0}}
-              transition={{duration:2}}
+              transition={{duration:1.5, delay:0.3}}
               viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
@@ -123,7 +123,7 @@ export default function Skills() {
               <m.div
               initial={{opacity:0, x:-40}}
               whileInView={{opacity:1, x:0}}
-              transition={{duration:2}}
+              transition={{duration:1.5, delay:0.3}}
               viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
@@ -134,7 +134,7 @@ export default function Skills() {
               <m.div
               initial={{opacity:0, x:-40}}
               whileInView={{opacity:1, x:0}}
-              transition={{duration:2}}
+              transition={{duration:1.5, delay:0.3}}
               viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
@@ -145,7 +145,7 @@ export default function Skills() {
               <m.div
               initial={{opacity:0, x:-40}}
               whileInView={{opacity:1, x:0}}
-              transition={{duration:2}}
+              transition={{duration:1.5, delay:0.3}}
               viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
@@ -156,7 +156,7 @@ export default function Skills() {
               <m.div
               initial={{opacity:0, x:-40}}
               whileInView={{opacity:1, x:0}}
-              transition={{duration:2}}
+              transition={{duration:1.5, delay:0.3}}
               viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
@@ -167,7 +167,7 @@ export default function Skills() {
               <m.div
               initial={{opacity:0, x:-40}}
               whileInView={{opacity:1, x:0}}
-              transition={{duration:2}}
+              transition={{duration:1.5, delay:0.3}}
               viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
@@ -178,7 +178,7 @@ export default function Skills() {
               <m.div
               initial={{opacity:0, x:-40}}
               whileInView={{opacity:1, x:0}}
-              transition={{duration:2}}
+              transition={{duration:1.5, delay:0.3}}
               viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
@@ -189,7 +189,7 @@ export default function Skills() {
               <m.div
               initial={{opacity:0, x:-40}}
               whileInView={{opacity:1, x:0}}
-              transition={{duration:2}}
+              transition={{duration:1.5, delay:0.3}}
               viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
@@ -200,7 +200,7 @@ export default function Skills() {
               <m.div
               initial={{opacity:0, x:-40}}
               whileInView={{opacity:1, x:0}}
-              transition={{duration:2}}
+              transition={{duration:1.5, delay:0.3}}
               viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
@@ -211,7 +211,7 @@ export default function Skills() {
               <m.div
               initial={{opacity:0, x:-40}}
               whileInView={{opacity:1, x:0}}
-              transition={{duration:2}}
+              transition={{duration:1.5, delay:0.3}}
               viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
@@ -222,7 +222,7 @@ export default function Skills() {
               <m.div
               initial={{opacity:0, x:-40}}
               whileInView={{opacity:1, x:0}}
-              transition={{duration:2}}
+              transition={{duration:1.5, delay:0.3}}
               viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
@@ -233,7 +233,7 @@ export default function Skills() {
               <m.div
               initial={{opacity:0, x:-40}}
               whileInView={{opacity:1, x:0}}
-              transition={{duration:2}}
+              transition={{duration:1.5, delay:0.3}}
               viewport={{once:true}}
               className='py-5'>
                 <div className=" bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
@@ -244,7 +244,7 @@ export default function Skills() {
               <m.div
               initial={{opacity:0, x:-40}}
               whileInView={{opacity:1, x:0}}
-              transition={{duration:2}}
+              transition={{duration:1.5, delay:0.3}}
               viewport={{once:true}}
               className='py-5'>
                 <div className=" bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
@@ -255,7 +255,7 @@ export default function Skills() {
               <m.div
               initial={{opacity:0, x:-40}}
               whileInView={{opacity:1, x:0}}
-              transition={{duration:2}}
+              transition={{duration:1.5, delay:0.3}}
               viewport={{once:true}}
               className='py-5'>
                 <div className=" bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10">
@@ -266,7 +266,7 @@ export default function Skills() {
               <m.div
               initial={{opacity:0, x:-40}}
               whileInView={{opacity:1, x:0}}
-              transition={{duration:2}}
+              transition={{duration:1.5, delay:0.3}}
               viewport={{once:true}}
               className='py-5'>
                 <div className="bg-opacity-30 bg-black p-5 rounded-xl 2xl:px-52 2xl:py-10 ">

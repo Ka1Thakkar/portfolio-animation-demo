@@ -11,7 +11,7 @@ export default function About() {
         animate = {{opacity:1}}
         exit={{opacity:0}}
         transition={{duration:1}}
-        id="about" className="2xl:flex 2xl:pt-10 2xl:pb-32 2xl:max-h-screen overflow-hidden 2xl:justify-center 2xl:gap-10 bg-gradient-to-b from-black to-sky-900 justify-center px-5 pt-10">
+        id="about" className="2xl:flex 2xl:pt-10 2xl:pb-32 2xl:max-h-screen overflow-hidden 2xl:justify-center 2xl:gap-10 bg-gradient-to-b from-black to-stone-900 justify-center px-5 pt-10">
             <motion.div
               className=' text-black overflow-auto 2xl:overflow-y-scroll 2xl:px-10 rounded-xl scrollbar-thin 2xl:py-10 2xl:w-auto'>
             <motion.h3

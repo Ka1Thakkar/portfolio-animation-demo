@@ -13,7 +13,7 @@ import {motion as m} from 'framer-motion'
 
 export default function Contact () {
     return (
-        <section id="contact" className=" min-h-screen font-sans bg-gradient-to-b from-black to-sky-900 pt-10">
+        <section id="contact" className=" min-h-screen font-sans bg-gradient-to-b from-black to-stone-900 pt-10">
           <div>
             <m.h1
                         initial={{opacity:0, y:-40}}
@@ -32,7 +32,7 @@ export default function Contact () {
           initial={{opacity:0, y:40}}
           animate={{opacity:1, y:0}}
           transition={{delay:0.5,duration:1}}
-          className="p-10 font-sans bg-sky-900 bg-opacity-20 rounded-xl px-5 mx-auto mt-10 border-sky-900 border-4">
+          className="p-10 font-sans bg-stone-900 bg-opacity-20 rounded-xl px-5 mx-auto mt-10 border-zinc-900 border-4">
             <AiOutlineContacts className='text-5xl mx-auto text-white' />
             <h1 className="pb-2 pt-10 text-white text-3xl font-bold text-center">Kavan Thakkar</h1>
             <h2 className="text-white text-lg text-center"><span className="font-bold">Phone Number:</span> 9925141357</h2>
