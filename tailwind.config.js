@@ -9,4 +9,11 @@ module.exports = {
   plugins: [
     require('tailwind-scrollbar')
   ],
+  theme:{
+    extend:{
+      colors:{
+        primary: '#b5ff01',
+      }
+    }
+  }
 }

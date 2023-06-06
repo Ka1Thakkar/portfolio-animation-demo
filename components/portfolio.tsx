@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-'use client' 
 import react from 'react';
 import Image from 'next/image'
 import { 
@@ -19,44 +18,17 @@ import {
 import {
     CgCardSpades
 } from "react-icons/cg"
-import {motion as m} from'framer-motion'
-
-import { Monoton } from '@next/font/google'
-
-const advent = Monoton({
-    subsets:['latin'],
-    weight:"400"
-})
 
 export default function Portfolio () {
     return (
-        <div className={advent.className}>
-        <section id="projects" className="2xl:flex 2xl:pt-10 2xl:pb-32 2xl:max-h-screen overflow-hidden 2xl:justify-center 2xl:gap-10 2xl:py-32 pt-10 px-10 bg-gradient-to-b from-black to-sky-900/50">
-            <div className='2xl:my-auto text-white overflow-auto 2xl:overflow-y-scroll 2xl:px-10 rounded-xl scrollbar-thin 2xl:w-auto 2xl:py-10 xl:px-10'>
-              <m.h1
-                initial={{opacity:0, x:40}}
-                animate={{opacity:1, x:0}}
-                transition={{duration:1}}
-                className='text-6xl 2xl:text-5xl py-1 text-white text-left 2xl:text-right decoration-red-600 decoration-4 underline-offset-8 underline'>Projects</m.h1>
-              <m.h3
-                initial={{opacity:0, x:40}}
-                animate={{opacity:1, x:0}}
-                transition={{delay:0.5,duration:1}}
-                className="text-2xl 2xl:text-4xl py-2 leading-8 text-white mt-8 text-left 2xl:text-right font-mono">I have created a few projects to enhance my skills as a front end developer, this portfolio being one of them.</m.h3>
-              <m.h3
-                initial={{opacity:0, x:40}}
-                animate={{opacity:1, x:0}}
-                transition={{delay:1,duration:1}}
-                className='text-md pt-20 text-left 2xl:text-right text-gray-400 font-mono font-bold'>Click on the respective tiles to open the respective GitHub respository.</m.h3>
+        <section id="projects" className="2xl:flex 2xl:py-32 2xl:max-h-screen overflow-hidden 2xl:justify-center 2xl:gap-10 md:py-32 pt-32">
+            <div className='2xl:my-auto text-white overflow-auto 2xl:overflow-y-scroll 2xl:px-10 rounded-xl scrollbar-thin 2xl:w-auto 2xl:py-10'>
+              <h1 className='text-6xl 2xl:text-4xl py-1 text-white font-bold text-left sm:text-right decoration-red-600 decoration-4 underline-offset-8 underline font-mono'>Projects</h1>
+              <h3 className="text-2xl 2xl:text-4xl py-2 leading-8 text-white mt-8 text-left sm:text-right font-mono">I have created a few projects to enhance my skills as a front end developer, this portfolio being one of them.</h3>
+              <h3 className='text-md pt-20 text-left 2xl:text-right text-gray-400 font-bold'>Click on the respective tiles to open the respective GitHub respository.</h3>
             </div>
-            <m.div
-            className=' 2xl:max-h-screen 2xl:overflow-y-scroll scrollbar-thin text-white overflow-visible py-5 xl:px-10 rounded-xl 2xl:w-auto 2xl:py-auto font-sans'>
-                <m.div
-                initial={{opacity:0, x:-40}}
-                whileInView={{opacity:1, x:0}}
-                transition={{duration:1.5, delay:0.5}}
-                viewport={{once:true}}
-                className='py-5'>
+            <div className=' 2xl:max-h-screen 2xl:overflow-y-scroll scrollbar-thin text-white overflow-visible py-5 xl:px-10 rounded-xl 2xl:w-auto 2xl:py-auto'>
+                <div className='py-5'>
                     <div className='p-10 bg-black bg-opacity-30 rounded-xl'>
                         <a href='https://github.com/Ka1Thakkar/Uber-Eats_Website' target='_blank' className=''>
                             <div className='flex gap-5'>
@@ -71,13 +43,8 @@ export default function Portfolio () {
                                 <BsArrowUpRight className='text-sm' />        
                         </div>
                     </div>
-                </m.div>
-                <m.div
-                initial={{opacity:0, x:-40}}
-                whileInView={{opacity:1, x:0}}
-                transition={{duration:1.5, delay:0.5}}
-                viewport={{once:true}}
-                className='py-5'>
+                </div>
+                <div className='py-5'>
                     <div className='p-10 bg-black bg-opacity-30 rounded-xl'>
                         <a href='https://github.com/Ka1Thakkar/Passenger-counter' target='_blank' className=''>
                         <div className='flex gap-5'>
@@ -92,13 +59,8 @@ export default function Portfolio () {
                                 <BsArrowUpRight className='text-sm' />        
                         </div>
                     </div>
-                </m.div>
-                <m.div
-                initial={{opacity:0, x:-40}}
-                whileInView={{opacity:1, x:0}}
-                transition={{duration:1.5, delay:0.5}}
-                viewport={{once:true}}
-                className='py-5'>
+                </div>
+                <div className='py-5'>
                     <div className='p-10 bg-black bg-opacity-30 rounded-xl'>
                         <a href='https://github.com/Ka1Thakkar/Blackjack' target='_blank' className=''>
                         <div className='flex gap-5'>
@@ -113,13 +75,8 @@ export default function Portfolio () {
                                 <BsArrowUpRight className='text-sm' />        
                         </div>
                     </div>
-                </m.div>
-                <m.div
-                initial={{opacity:0, x:-40}}
-                whileInView={{opacity:1, x:0}}
-                transition={{duration:1.5, delay:0.5}}
-                viewport={{once:true}}
-                className='py-5'>
+                </div>
+                <div className='py-5'>
                     <div className='p-10 bg-black bg-opacity-30 rounded-xl'>
                         <a href='https://github.com/Ka1Thakkar/BITS-Club-sample' target='_blank' className=''>
                         <div className='flex gap-5'>
@@ -134,13 +91,8 @@ export default function Portfolio () {
                                 <BsArrowUpRight className='text-sm' />        
                         </div>
                     </div>
-                </m.div>
-                <m.div
-                initial={{opacity:0, x:-40}}
-                whileInView={{opacity:1, x:0}}
-                transition={{duration:1.5, delay:0.5}}
-                viewport={{once:true}}
-                className='py-5'>
+                </div>
+                <div className='py-5'>
                     <div className='p-10 bg-black bg-opacity-30 rounded-xl'>
                         <a href='https://github.com/Ka1Thakkar/Airbnb-clone' target='_blank' className=''>
                         <div className='flex gap-5'>
@@ -155,13 +107,8 @@ export default function Portfolio () {
                                 <BsArrowUpRight className='text-sm' />        
                         </div>
                     </div>
-                </m.div>
-                <m.div
-                initial={{opacity:0, x:-40}}
-                whileInView={{opacity:1, x:0}}
-                transition={{duration:1.5, delay:0.5}}
-                viewport={{once:true}}
-                className='py-5'>
+                </div>
+                <div className='py-5'>
                     <div className='p-10 bg-black bg-opacity-30 rounded-xl'>
                         <a href='https://github.com/Ka1Thakkar/Simon-Game-Workshop' target='_blank' className=''>
                         <div className='flex gap-5'>
@@ -176,13 +123,8 @@ export default function Portfolio () {
                                 <BsArrowUpRight className='text-sm' />        
                         </div>
                     </div>
-                </m.div>
-                <m.div
-                initial={{opacity:0, x:-40}}
-                whileInView={{opacity:1, x:0}}
-                transition={{duration:1.5, delay:0.5}}
-                viewport={{once:true}}
-                className='py-5'>
+                </div>
+                <div className='py-5'>
                     <div className='p-10 bg-black bg-opacity-30 rounded-xl'>
                         <a href='https://github.com/Ka1Thakkar/BITS-Club-sample' target='_blank' className=''>
                         <div className='flex gap-5'>
@@ -197,13 +139,8 @@ export default function Portfolio () {
                                 <BsArrowUpRight className='text-sm' />        
                         </div>
                     </div>
-                </m.div>
-                <m.div
-                initial={{opacity:0, x:-40}}
-                whileInView={{opacity:1, x:0}}
-                transition={{duration:1.5, delay:0.5}}
-                viewport={{once:true}}
-                className='py-5'>
+                </div>
+                <div className='py-5'>
                     <div className='p-10 bg-black bg-opacity-30 rounded-xl'>
                         <a href='https://github.com/Ka1Thakkar/portfolio-2' target='_blank' className=''>
                         <div className='flex gap-5'>
@@ -218,9 +155,8 @@ export default function Portfolio () {
                                 <BsArrowUpRight className='text-sm' />        
                         </div>
                     </div>
-                </m.div>
-            </m.div>
+                </div>
+            </div>
         </section>
-        </div>
     )
 }

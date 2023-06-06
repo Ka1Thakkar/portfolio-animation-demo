@@ -3,22 +3,38 @@
 import react from 'react';
 import Image from 'next/image'
 import {motion, AnimatePresence} from 'framer-motion'
+import { once } from 'events';
+import { Monoton } from '@next/font/google'
+
+const advent = Monoton({
+    subsets:['latin'],
+    weight:"400"
+})
+
+const variants = {
+  animate:{
+    x:0,
+    opacity:1,
+    transition:{duration:1, delay:0.5}
+  },
+}
 
 export default function About() {
     return (
       <AnimatePresence>
+        <div className={advent.className}>
         <motion.section
         animate = {{opacity:1}}
         exit={{opacity:0}}
         transition={{duration:1}}
-        id="about" className="2xl:flex 2xl:pt-10 2xl:pb-32 2xl:max-h-screen overflow-hidden 2xl:justify-center 2xl:gap-10 bg-gradient-to-b from-black to-stone-900 justify-center px-5 pt-10">
+        id="about" className="2xl:flex 2xl:pt-10 2xl:pb-32 2xl:max-h-screen overflow-hidden 2xl:justify-center 2xl:gap-10 bg-gradient-to-b from-black to-sky-900/50 justify-center px-10 pt-10">
             <motion.div
               className=' text-black overflow-auto 2xl:overflow-y-scroll 2xl:px-10 rounded-xl scrollbar-thin 2xl:py-10 2xl:w-auto'>
             <motion.h3
             initial={{opacity:0, x:40}}
             animate={{opacity:1, x:0}}
             transition={{duration:1}}
-            className='xl:px-10 text-6xl 2xl:text-4xl text-white underline decoration-red-600 decoration-4 underline-offset-8 font-serif font-bold 2xl:text-right pb-5 2xl:pb-0'>About Me</motion.h3>
+            className='xl:px-10 text-7xl 2xl:text-5xl text-white underline decoration-red-600 decoration-4 underline-offset-8 2xl:text-right pb-5 2xl:pb-0'>About Me</motion.h3>
             <motion.p
             initial={{opacity:0, x:40}}
             animate={{opacity:1, x:0}}
@@ -29,7 +45,7 @@ export default function About() {
             <motion.p
             initial={{opacity:0, x:-40}}
             animate={{opacity:1, x:0}}
-            transition={{delay:1,duration:1}}
+            transition={{delay:0.5,duration:1}}
             className='text-md sm:text-xl py-5 font-sans text-left'>
               I am pursuing a dual degree in <span>MSc Physics</span> and <span className='font-bold'>B.E. Electronics and
               Instrumentation</span>. I have fundamental knowledge of web development and am currently mastering
@@ -38,8 +54,9 @@ export default function About() {
             <div className="gap-10 font-mono">
               <motion.div
               initial={{opacity:0, x:-40}}
-              animate={{opacity:1, x:0}}
-              transition={{delay:1.5,duration:1}}
+              variants={variants}
+              whileInView={"animate"}
+              viewport={{once:true}}
               className=" p-10 rounded-xl my-10 basis-1/2 bg-black bg-opacity-30">
                 <h1 className="text-3xl text-center md:text-left text-orange-500 font-extrabold">Experience:</h1>
                 <ul className=" list-disc text-orange-500">
@@ -64,8 +81,9 @@ export default function About() {
               </motion.div>
               <motion.div
               initial={{opacity:0, x:-40}}
-              animate={{opacity:1, x:0}}
-              transition={{delay:2,duration:1}}
+              variants={variants}
+              whileInView={"animate"}
+              viewport={{once:true}}
               className=" p-10 rounded-xl my-10 basis-1/2 bg-black bg-opacity-30">
                 <h1 className="text-3xl text-center md:text-left text-orange-500 font-extrabold">Education:</h1>
                 <ul className="list-disc text-orange-500">
@@ -95,6 +113,7 @@ export default function About() {
             </div>
           </div>
         </motion.section>
+        </div>
         </AnimatePresence>
     )
 }
