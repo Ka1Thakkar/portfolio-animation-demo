@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className='2xl:overflow-hidden'>
-      <body>
+      <body className='bg-black'>
         <Nav />
         {children}
       </body>
