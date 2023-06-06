@@ -36,7 +36,6 @@ const _variants = {
 export default function Home() {
     return (
         <div className={advent.className}>
-        <div className='xl:flex items-center justify-center'>
         <motion.section
             initial={{opacity:0, y:-40}}
             animate={{opacity:1, y:0}}
@@ -62,14 +61,6 @@ export default function Home() {
             </motion.button>
             </Link>
         </motion.section>
-        <motion.div 
-        initial={{opacity:0, y:-40}}
-        animate={{opacity:1, y:0}}
-        transition={{duration:1, delay:0.2}}
-        className='pb-12 xl:pt-16'>
-            <Image src="/../public/ka1.png" height={500} width={500} alt='/../public/ka1.png' className='rounded-full mx-auto' />
-        </motion.div>
-        </div>
         </div>
     )
 }
