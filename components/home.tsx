@@ -67,7 +67,7 @@ export default function Home() {
         animate={{opacity:1, y:0}}
         transition={{duration:1, delay:0.2}}
         className='pb-12 xl:pt-16'>
-            <Image src="/../public/ka1.png" height={500} width={500} alt='Ka1 image' className='rounded-full mx-auto' />
+            <Image src="/../public/ka1.png" height={500} width={500} alt='/../public/ka1.png' className='rounded-full mx-auto' />
         </motion.div>
         </div>
         </div>
