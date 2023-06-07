@@ -12,9 +12,9 @@ import {
 } from 'react-icons/ai'
 import {motion} from 'framer-motion'
 import Link from 'next/link';
-import { Parisienne } from '@next/font/google'
+import { Kenia } from '@next/font/google'
 
-const advent = Parisienne({
+const advent = Kenia({
     subsets:['latin'],
     weight:"400"
 })
@@ -41,11 +41,11 @@ export default function Home() {
             animate={{opacity:1, y:0}}
             transition={{delay:0.2,duration:1}}
             id="home"
-            className=' px-10 sm:p-10 rounded-xl text-left sm:pt-44 pt-10 overflow-hidden pb-12'>
-            <p className='text-xl text-orange-600 font-bold pb-1 font-mono'>{"<p>Hi, my name is</p>"}</p>
-            <h1 className='text-7xl 2xl:text-8xl xl:text-7xl pb-1 text-white md:text-7xl lg:text-7xl'>Kavan Thakkar</h1>
-            <h2 className='text-2xl pt-1 pb-5 md:text-3xl xl:text-4xl font-bold text-gray-300 font-mono'>{"<h2>I am a Full Stack Developer and a Designer,</h2>"}</h2>
-            <p className='text-xl pt-2 pb-5 text-gray-400 md:text-md xl:text-md max-w-xl rounded-xl font-mono'>{"<p>Third year student at Birla Institute of Technology and Science, Pilani and a front-end development enthusiast. Let's connect!</p>"}</p>
+            className=' px-10 sm:p-10 rounded-xl text-left sm:pt-24 pt-10 overflow-hidden pb-12'>
+            <p className='text-xl text-primary font-bold pb-1 font-mono'>{"Hi, my name is"}</p>
+            <h1 className='text-9xl 2xl:text-9xl xl:text-9xl pb-1 text-white md:text-9xl lg:text-9xl'>Kavan Thakkar</h1>
+            <h2 className='text-2xl pt-1 pb-5 md:text-3xl xl:text-4xl font-bold text-gray-300 font-mono'>{"I am a Full Stack Developer and a Designer,"}</h2>
+            <p className='text-xl pt-2 pb-5 text-gray-400 md:text-md xl:text-md max-w-xl rounded-xl font-mono'>{"Third year student at Birla Institute of Technology and Science, Pilani and a front-end development enthusiast. Let's connect!"}</p>
             <div className="flex pt-5 pb-5 text-white text-4xl gap-8 items-center">
               <Link className="hover:text-white" href="https://github.com/Ka1Thakkar" target="_blank"><motion.button variants={_variants} whileHover={"hover"}><AiFillGithub /></motion.button></Link>
               <Link className="hover:text-white" href="https://www.linkedin.com/in/kavan-thakkar/" target="_blank"><motion.button variants={_variants} whileHover={"hover"}><AiFillLinkedin /></motion.button></Link>
