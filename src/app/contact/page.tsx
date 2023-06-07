@@ -27,7 +27,7 @@ const variants = {
 export default function Contact () {
     return (
       <div className={advent.className}>
-        <section id="contact" className=" min-h-screen bg-gradient-to-b from-black to-sky-900/50 pt-10 px-10">
+        <section id="contact" className=" min-h-screen bg-gradient-to-b from-black via-gray-900 to-sky-900/70 pt-10 px-10">
           <div>
             <m.h1
                         initial={{opacity:0, y:-40}}

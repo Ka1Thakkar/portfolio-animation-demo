@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className='2xl:overflow-hidden'>
+    <html lang="en" className=' scrollbar-none'>
       <body className='bg-black'>
         <Nav />
         {children}

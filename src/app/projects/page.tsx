@@ -31,13 +31,13 @@ const advent = Monoton({
 export default function Portfolio () {
     return (
         <div className={advent.className}>
-        <section id="projects" className="2xl:flex 2xl:pt-10 2xl:pb-32 2xl:max-h-screen overflow-hidden 2xl:justify-center 2xl:gap-10 2xl:py-32 pt-10 px-10 bg-gradient-to-b from-black to-sky-900/50">
+        <section id="projects" className="2xl:flex 2xl:pt-10 2xl:pb-32 2xl:max-h-screen overflow-hidden 2xl:justify-center 2xl:gap-10 2xl:py-32 pt-10 px-10 bg-gradient-to-b from-black via-gray-900 to-sky-900/70">
             <div className='2xl:my-auto text-white overflow-auto 2xl:overflow-y-scroll 2xl:px-10 rounded-xl scrollbar-thin 2xl:w-auto 2xl:py-10 xl:px-10'>
               <m.h1
                 initial={{opacity:0, x:40}}
                 animate={{opacity:1, x:0}}
                 transition={{duration:1}}
-                className='text-6xl 2xl:text-5xl py-1 text-white text-left 2xl:text-right decoration-red-600 decoration-4 underline-offset-8 underline'>Projects</m.h1>
+                className='text-5xl 2xl:text-5xl py-1 text-white text-left 2xl:text-right decoration-red-600 decoration-4 underline-offset-8 underline'>Projects</m.h1>
               <m.h3
                 initial={{opacity:0, x:40}}
                 animate={{opacity:1, x:0}}
@@ -50,7 +50,7 @@ export default function Portfolio () {
                 className='text-md pt-20 text-left 2xl:text-right text-gray-400 font-mono font-bold'>Click on the respective tiles to open the respective GitHub respository.</m.h3>
             </div>
             <m.div
-            className=' 2xl:max-h-screen 2xl:overflow-y-scroll scrollbar-thin text-white overflow-visible py-5 xl:px-10 rounded-xl 2xl:w-auto 2xl:py-auto font-sans'>
+            className=' 2xl:max-h-screen 2xl:overflow-y-scroll scrollbar-thin text-white overflow-visible py-5 xl:px-10 rounded-xl 2xl:w-auto 2xl:py-auto font-sans scrollbar-thumb-orange-600 scrollbar-track-transparent'>
                 <m.div
                 initial={{opacity:0, x:-40}}
                 whileInView={{opacity:1, x:0}}
