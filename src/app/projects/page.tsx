@@ -215,9 +215,8 @@ export default function Portfolio () {
                             <p className='text-md 2xl:text-lg text-gray-300 pt-5'>One of my largest solo project, till date.</p>
                         </a>
                         <div className='flex pt-10 underline'>
-                                <Link href='/'><p className='text-md'>Link to the hosted website</p>
-                                <BsArrowUpRight className='text-sm' />
-                                </Link>       
+                                <Link href='/'><p className='text-md'>Link to the hosted website</p></Link>
+                                <BsArrowUpRight className='text-sm' />        
                         </div>
                     </div>
                 </m.div>
