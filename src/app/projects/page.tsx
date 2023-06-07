@@ -2,6 +2,7 @@
 'use client' 
 import react from 'react';
 import Image from 'next/image'
+import Link from 'next/link';
 import { 
     SiUbereats,
     SiAirbnb,
@@ -214,8 +215,9 @@ export default function Portfolio () {
                             <p className='text-md 2xl:text-lg text-gray-300 pt-5'>One of my largest solo project, till date.</p>
                         </a>
                         <div className='flex pt-10 underline'>
-                                <a href='/'><p className='text-md'>Link to the hosted website</p></a>
-                                <BsArrowUpRight className='text-sm' />        
+                                <Link href='/'><p className='text-md'>Link to the hosted website</p>
+                                <BsArrowUpRight className='text-sm' />
+                                </Link>       
                         </div>
                     </div>
                 </m.div>
