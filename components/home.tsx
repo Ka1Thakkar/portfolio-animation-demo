@@ -79,7 +79,7 @@ export default function Home() {
         initial={{opacity:0,y:-40}}
         animate={{opacity:1,y:0}}
         transition={{duration:1, delay:0.2}}
-        className='px-auto pb-12 flex items-center justify-center'>
+        className='px-auto pb-12 flex items-center justify-center px-10'>
             <motion.div variants={variant} whileHover={"hover"}>
             <Image src={Kavan} layout='cover' quality={100} alt='Image of the creator' className=' rounded-full bg-white bg-opacity-5 border-white/5 border-2 shadow-2xl shadow-white/5'/>
             </motion.div>
